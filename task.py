@@ -18,3 +18,12 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+
+from FlightSimulator import FlightSimulator
+
+if __name__ == "__main__":
+	simulator = FlightSimulator()
+	simulator.fly()
+	#so here should be infinite loop with prints
+	#and generator should generate turbulance
